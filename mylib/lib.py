@@ -10,8 +10,8 @@ from pyspark.sql.types import (
      StructType, 
      StructField, 
      IntegerType, 
-     StringType, 
-     DateType
+     # StringType, 
+     # DateType
 )
 
 LOG_FILE = "pyspark_output.md"
