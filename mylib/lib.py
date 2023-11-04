@@ -55,7 +55,7 @@ def extract(
 
     return file_path
 
-def load_data(spark, data="data/BIRTH.csv", name="BIRTH"):
+def load_data(spark, data="data/Birth.csv", name="BIRTH"):
     """load data"""
     # data preprocessing by setting schema
     schema = StructType([
