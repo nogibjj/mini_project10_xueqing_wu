@@ -41,8 +41,11 @@ def test_describe(spark):
 def test_query(spark):
     df = load_data(spark)
     result = query(
-        spark, df, "SELECT * FROM BIRTH8000 WHERE Births > 8000", "BIRTH8000" 
-        #call the "Spark" session
+        spark,
+        df,
+        "SELECT * FROM BIRTH8000 WHERE Births > 8000",
+        "BIRTH8000"
+        # call the "Spark" session
         # Call the dataframe called "df"
         # The new dataframe is called "BIRTH8000"
         # query the data based on the new dataframe
